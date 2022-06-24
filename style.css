@@ -1,21 +1,42 @@
 h1 {
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
 }
 
-img {
-    height: 50%;
+.introduction{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.introduction #profile_pic {
+    height: 400px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.social-icon {
+    height: 50px;
+    padding: 2px;
+    color: white;
+    text-decoration: none;
 }
 
 body {
     background-color: #151515;
     color: white;
     font-family: Verdana;
+    text-align: center;
 }
 
 a {
     color: blueviolet;
 }
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+
