@@ -8,7 +8,16 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  padding: 2rem 0;
+  padding: 1rem 0;
+}
+
+.image {
+  max-width: 80%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  transition: var(--transition);
+  border: 3px solid var(--neutral-dark);
 }
 
 /* Mobile styles */
@@ -20,5 +29,10 @@
 
   .pageContainer {
     padding: 1rem;
+  }
+
+  .image {
+    max-width: 60%;
+    margin: 0 auto;
   }
 } 
