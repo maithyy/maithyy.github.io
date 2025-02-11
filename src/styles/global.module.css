@@ -1,10 +1,10 @@
-.container {
+.pageContainer {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
 }
 
-.projectsGrid {
+.gridContainer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
@@ -13,12 +13,12 @@
 
 /* Mobile styles */
 @media (max-width: 768px) {
-  .projectsGrid {
+  .gridContainer {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
 
-  .container {
+  .pageContainer {
     padding: 1rem;
   }
 } 

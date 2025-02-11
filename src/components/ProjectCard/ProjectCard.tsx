@@ -1,5 +1,5 @@
-import { Project } from '../../types/types';
-import styles from './ProjectCard.module.css';
+import { Project } from "../../types/types";
+import styles from "./ProjectCard.module.css";
 
 interface ProjectCardProps {
   project: Project;
@@ -14,12 +14,10 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         </a>
       </h2>
       <h3 className={styles.date}>{project.date}</h3>
-      <img 
-        src={project.image} 
-        alt={project.title}
-        className={`img-fluid ${styles.image}`}
-      />
-      <p>{project.description}</p>
+      <div className={styles.imageContainer}>
+        <img src={project.image} alt={project.title} className={styles.image} />
+      </div>
+      <p className={styles.description}>{project.description}</p>
     </div>
   );
 };

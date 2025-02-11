@@ -1,8 +1,10 @@
+import styles from "../styles/global.module.css";
+
 const Home = () => {
   return (
-    <div className="container my-4">
+    <div className={styles.pageContainer}>
       <h1>Maithy Le</h1>
-      <div className="container mt-4">
+      <div className={styles.gridContainer}>
         <p>Welcome to my portfolio!</p>
       </div>
     </div>

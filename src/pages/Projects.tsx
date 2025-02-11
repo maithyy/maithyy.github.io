@@ -1,6 +1,6 @@
-import ProjectCard from "../../components/ProjectCard/ProjectCard";
-import { Project } from "../../types/types";
-import styles from "./Projects.module.css";
+import ProjectCard from "../components/ProjectCard/ProjectCard";
+import styles from "../styles/global.module.css";
+import { Project } from "../types/types";
 
 const Projects = () => {
   const projects: Project[] = [
@@ -55,9 +55,9 @@ const Projects = () => {
   ];
 
   return (
-    <div className={styles.container}>
+    <div className={styles.pageContainer}>
       <h1>Projects</h1>
-      <div className={styles.projectsGrid}>
+      <div className={styles.gridContainer}>
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
