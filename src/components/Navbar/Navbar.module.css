@@ -1,0 +1,15 @@
+.navbar {
+  background: linear-gradient(to right, var(--neutral-dark), var(--primary)) !important;
+  box-shadow: var(--shadow-md);
+  padding: 1rem 2rem;
+}
+
+.navLink {
+  font-weight: 500;
+  font-size: 1.05rem;
+  padding: 0.5rem 1.25rem !important;
+  margin: 0 0.5rem;
+  border-radius: 6px;
+  transition: var(--transition);
+  letter-spacing: 0.3px;
+} 
