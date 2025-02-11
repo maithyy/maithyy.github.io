@@ -6,7 +6,6 @@ const Home = () => {
         <p>Welcome to my portfolio!</p>
       </div>
     </div>
-
   );
 };
 

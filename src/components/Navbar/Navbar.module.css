@@ -1,7 +1,9 @@
 .navbar {
-  background: linear-gradient(to right, var(--neutral-dark), var(--primary)) !important;
+  /* background: linear-gradient(to right, var(--neutral-dark), var(--primary)) !important; */
+  background-color: var(--neutral-dark) !important;
   box-shadow: var(--shadow-md);
   padding: 1rem 2rem;
+  border-bottom: 2px solid var(--accent);
 }
 
 .navLink {
@@ -12,4 +14,28 @@
   border-radius: 6px;
   transition: var(--transition);
   letter-spacing: 0.3px;
+  color: var(--text-light) !important;
+  position: relative;
+}
+
+.navLink::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: var(--accent);
+  transition: var(--transition);
+  transform: translateX(-50%);
+}
+
+.navLink:hover {
+  color: var(--accent-light) !important;
+  background-color: rgba(220, 184, 178, 0.1);
+  transform: translateY(-2px);
+}
+
+.navLink:hover::after {
+  width: 80%;
 } 

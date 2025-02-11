@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: var(--neutral-dark);
+  background-color: var(--primary-lighter);
   color: var(--text-light);
   line-height: 1.6;
   letter-spacing: 0.2px;
