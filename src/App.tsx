@@ -6,7 +6,7 @@ import {
   Routes,
 } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import About from "./pages/About";
+import Experience from "./pages/Experience";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import "./styles/theme.css";
@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>

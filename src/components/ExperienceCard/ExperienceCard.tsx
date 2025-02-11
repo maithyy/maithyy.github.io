@@ -1,12 +1,12 @@
-import styles from "./AboutCard.module.css";
+import styles from "./ExperienceCard.module.css";
 
-interface AboutCardProps {
+interface ExperienceCardProps {
   title: string;
   subtitle: string;
   items: string[];
 }
 
-const AboutCard = ({ title, subtitle, items }: AboutCardProps) => {
+const ExperienceCard = ({ title, subtitle, items }: ExperienceCardProps) => {
   return (
     <div className={styles.card}>
       <h2 className={styles.title}>{title}</h2>
@@ -22,4 +22,4 @@ const AboutCard = ({ title, subtitle, items }: AboutCardProps) => {
   );
 };
 
-export default AboutCard;
+export default ExperienceCard;
