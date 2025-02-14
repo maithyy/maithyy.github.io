@@ -26,14 +26,14 @@ const TabSelector = ({ onTabChange, activeTab }: TabSelectorProps) => {
       >
         Campus Involvement
       </button>
-      <button
+      {/* <button
         className={`${styles.tabButton} ${
           activeTab === "education" ? styles.active : ""
         }`}
         onClick={() => onTabChange("education")}
       >
         Education
-      </button>
+      </button> */}
     </div>
   );
 };

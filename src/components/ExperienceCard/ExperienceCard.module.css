@@ -21,6 +21,28 @@
   margin-bottom: 1.5rem;
 }
 
+.rolesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.roleSection {
+  margin-bottom: 1.5rem;
+}
+
+.roleHeader {
+  color: var(--accent-light);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.date {
+  font-weight: normal;
+  color: var(--text-light);
+}
+
 .list {
   list-style: none;
   padding: 0;

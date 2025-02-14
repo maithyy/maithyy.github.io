@@ -13,8 +13,12 @@ const Home = () => {
           </p>
           <p>
             I love finding ways to use technology to{" "}
-            <strong>help people</strong> and building software that has a{" "}
+            <strong>help people</strong> and building software that has a
             <strong>meaningful impact</strong>.
+          </p>
+          <p>
+            In my free time, I love reading on my Kindle and karaoking! I'm also 
+            a huge fashion enthusiast {":)"}
           </p>
         </div>
         <img
