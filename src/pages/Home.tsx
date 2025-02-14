@@ -16,10 +16,6 @@ const Home = () => {
             <strong>help people</strong> and building software that has a{" "}
             <strong>meaningful impact</strong>.
           </p>
-          <p>
-            In my free time, I love reading on my Kindle and karaoking! I'm also{" "}
-            a huge fashion enthusiast {":)"}
-          </p>
         </div>
         <img
           src={`${process.env.PUBLIC_URL}/images/maithy_1.jpeg`}
