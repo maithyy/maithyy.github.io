@@ -1,0 +1,40 @@
+.tabContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tabButton {
+  background: none;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  color: var(--text-dark);
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: var(--transition);
+  border: 2px solid transparent;
+}
+
+.tabButton:hover {
+  color: var(--neutral-dark);
+  background-color: rgba(220, 184, 178, 0.1);
+}
+
+.tabButton.active {
+  color: var(--neutral-dark);
+  border-color: var(--neutral-dark);
+  background-color: rgba(220, 184, 178, 0.1);
+}
+
+@media (max-width: 768px) {
+  .tabContainer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .tabButton {
+    width: 100%;
+  }
+} 
