@@ -19,17 +19,17 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarContent">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <Link className={`nav-link ${styles.navLink}`} to="/">
+            <Link reloadDocument className={`nav-link ${styles.navLink}`} to="/">
               Home
             </Link>
           </li>
           <li className="nav-item">
-            <Link className={`nav-link ${styles.navLink}`} to="/projects">
+            <Link reloadDocument className={`nav-link ${styles.navLink}`} to="/projects">
               Projects
             </Link>
           </li>
           <li className="nav-item">
-            <Link className={`nav-link ${styles.navLink}`} to="/experience">
+            <Link reloadDocument className={`nav-link ${styles.navLink}`} to="/experience">
               Experience
             </Link>
           </li>
