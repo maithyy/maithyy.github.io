@@ -21,12 +21,12 @@ const Projects = () => {
       link: "https://yulyalu.github.io/Daily-Smirk-Website/",
     },
     {
-      title: "Nonprofit Long Term Event Planner and Schedule",
-      date: "September 2023 - June 2024",
-      image: `${process.env.PUBLIC_URL}/images/aiss.png`,
+      title: "Moji",
+      date: "June 2024",
+      image: `${process.env.PUBLIC_URL}/images/moji.jpg`,
       description:
-        "I worked with a 14 developer team over the 2023-2024 school year to create a long term event planner for the Achievement Institute for STEM Scholars, a local nonprofit that provides academic support to underprivileged students.",
-      link: "https://github.com/ctc-uci/aiss-frontendd",
+        "Virtual education platform using AI facial recognition for student engagement. Implemented LiveKit for real-time video conferencing with secure rooms and developed system to analyze engagement using Hume AI API, displaying animated emojis representing participant sentiment.",
+      link: "https://devpost.com/software/onlineconnect",
     },
     {
       title: "Electricity and Settlement Detection with AI",
@@ -37,12 +37,12 @@ const Projects = () => {
       link: "https://github.com/maithyy/electricity-and-settlement-detection-with-ai",
     },
     {
-      title: "Moji",
-      date: "June 2024",
-      image: `${process.env.PUBLIC_URL}/images/moji.jpg`,
+      title: "Nonprofit Event Planner and Schedule",
+      date: "September 2023 - June 2024",
+      image: `${process.env.PUBLIC_URL}/images/aiss.png`,
       description:
-        "Virtual education platform using AI facial recognition for student engagement. Implemented LiveKit for real-time video conferencing with secure rooms and developed system to analyze engagement using Hume AI API, displaying animated emojis representing participant sentiment.",
-      link: "https://devpost.com/software/onlineconnect",
+        "I worked with a 14 developer team over the 2023-2024 school year to create a long term event planner for the Achievement Institute for STEM Scholars, a local nonprofit that provides academic support to underprivileged students.",
+      link: "https://github.com/ctc-uci/aiss-frontendd",
     },
     {
       title: "Happi",
@@ -69,6 +69,14 @@ const Projects = () => {
       link: "https://github.com/your-repo/fabflix",
     },
     {
+      title: "Nonprofit Database Management System",
+      date: "October 2022 - June 2023",
+      image: `${process.env.PUBLIC_URL}/images/get_inspired.png`,
+      description:
+        "I worked with a 12 developer team over the 2022-2023 school year to create a database management application for a local nonprofit, Get Inspired, to manage their Pismo clam preservation data.",
+      link: "https://github.com/ctc-uci/get-inspired",
+    },
+    {
       title: "Mischief in Montreal",
       date: "April 2023",
       image: `${process.env.PUBLIC_URL}/images/mischief_in_montreal.jpg`,
@@ -83,14 +91,6 @@ const Projects = () => {
       description:
         "Cross-platform mobile app aggregating housing information from 5 websites. Implemented web scraping, created REST API using Next.js and CockroachDB, and deployed with Vercel.",
       link: "https://devpost.com/software/zothome",
-    },
-    {
-      title: "Nonprofit Database Management System",
-      date: "October 2022 - June 2023",
-      image: `${process.env.PUBLIC_URL}/images/get_inspired.png`,
-      description:
-        "I worked with a 12 developer team over the 2022-2023 school year to create a database management application for a local nonprofit, Get Inspired, to manage their Pismo clam preservation data.",
-      link: "https://github.com/ctc-uci/get-inspired",
     },
     {
       title: "Where's Petr?",
