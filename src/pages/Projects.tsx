@@ -9,7 +9,7 @@ const Projects = () => {
       date: "September 2024 - Present",
       image: `${process.env.PUBLIC_URL}/images/cch.png`,
       description:
-        "I am working with a 14 developer team over the 2024-2025 school year to develop a case management system for Colette's Children's Home, a local nonprofit that provides support to homeless women and children.",
+        "I am working with a 14 developer team to develop a case management system for Colette's Children's Home, a local nonprofit that provides support to homeless women and children.",
       link: "https://github.com/ctc-uci/cch",
     },
     {
@@ -41,7 +41,7 @@ const Projects = () => {
       date: "September 2023 - June 2024",
       image: `${process.env.PUBLIC_URL}/images/aiss.png`,
       description:
-        "I worked with a 14 developer team over the 2023-2024 school year to create a long term event planner for the Achievement Institute for STEM Scholars, a local nonprofit that provides academic support to underprivileged students.",
+        "I worked with a 14 developer team to create a long term event planner for the Achievement Institute for STEM Scholars, a local nonprofit that provides academic support to underprivileged students.",
       link: "https://github.com/ctc-uci/aiss-frontendd",
     },
     {
@@ -73,7 +73,7 @@ const Projects = () => {
       date: "October 2022 - June 2023",
       image: `${process.env.PUBLIC_URL}/images/get_inspired.png`,
       description:
-        "I worked with a 12 developer team over the 2022-2023 school year to create a database management application for a local nonprofit, Get Inspired, to manage their Pismo clam preservation data.",
+        "I worked with a 12 developer team to create a database management application for a local nonprofit, Get Inspired, to manage their Pismo clam preservation data.",
       link: "https://github.com/ctc-uci/get-inspired",
     },
     {
