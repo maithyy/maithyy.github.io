@@ -5,12 +5,28 @@ import { Project } from "../types/types";
 const Projects = () => {
   const projects: Project[] = [
     {
+      title: "Nonprofit Case Management System",
+      date: "September 2024 - Present",
+      image: `${process.env.PUBLIC_URL}/images/cch.png`,
+      description:
+        "I am working with a 14 developer team over the 2024-2025 school year to develop a case management system for Colette's Children's Home, a local nonprofit that provides support to homeless women and children.",
+      link: "https://github.com/ctc-uci/cch",
+    },
+    {
       title: "The Daily Smirk",
       date: "July 2024 - Present",
       image: `${process.env.PUBLIC_URL}/images/daily_smirk.png`,
       description:
         "A peer assessment tool for team projects utilizing a 'Smirks' rating system, deployed and used by 240+ students in INF 121. Developed frontend and backend of authentication pages with PKCE flow, and created Supabase SQL functions for efficient evaluation data retrieval and aggregation.",
       link: "https://yulyalu.github.io/Daily-Smirk-Website/",
+    },
+    {
+      title: "Nonprofit Long Term Event Planner and Schedule",
+      date: "September 2023 - June 2024",
+      image: `${process.env.PUBLIC_URL}/images/aiss.png`,
+      description:
+        "I worked with a 14 developer team over the 2023-2024 school year to create a long term event planner for the Achievement Institute for STEM Scholars, a local nonprofit that provides academic support to underprivileged students.",
+      link: "https://github.com/ctc-uci/aiss-frontendd",
     },
     {
       title: "Electricity and Settlement Detection with AI",
@@ -67,6 +83,14 @@ const Projects = () => {
       description:
         "Cross-platform mobile app aggregating housing information from 5 websites. Implemented web scraping, created REST API using Next.js and CockroachDB, and deployed with Vercel.",
       link: "https://devpost.com/software/zothome",
+    },
+    {
+      title: "Nonprofit Database Management System",
+      date: "October 2022 - June 2023",
+      image: `${process.env.PUBLIC_URL}/images/get_inspired.png`,
+      description:
+        "I worked with a 12 developer team over the 2022-2023 school year to create a database management application for a local nonprofit, Get Inspired, to manage their Pismo clam preservation data.",
+      link: "https://github.com/ctc-uci/get-inspired",
     },
     {
       title: "Where's Petr?",
