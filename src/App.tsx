@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import {
   Navigate,
   Route,
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
 } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
